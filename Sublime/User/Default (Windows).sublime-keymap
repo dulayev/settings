@@ -1,0 +1,18 @@
+[
+    { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+
+    { "keys": ["ctrl+up"], "command": "jump_vertical", "args": {"up": true} },
+    { "keys": ["ctrl+down"], "command": "jump_vertical", "args": {"up": false} },
+
+    { "keys": ["alt+s"], "command": "toggle_in_selection", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+/*    { "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },*/
+]
